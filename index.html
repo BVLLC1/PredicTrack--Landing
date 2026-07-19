@@ -25,12 +25,18 @@
         text-align: center; 
         border-bottom: 1px solid var(--border-color);
     }
-    /* Fixed Casing */
     h1 { font-size: 4rem; letter-spacing: -1px; margin-bottom: 10px; font-weight: 800; }
     .tm { font-size: 0.3em; vertical-align: super; }
-    
     .hero p { font-size: 1.2rem; color: var(--text-sub); max-width: 600px; margin: 0 auto 30px; }
     
+    /* New Download Area */
+    .download-section { margin: 40px 0; display: flex; gap: 20px; justify-content: center; }
+    .btn { 
+        padding: 15px 30px; border: 1px solid var(--accent-green); color: var(--accent-green);
+        text-decoration: none; font-weight: bold; border-radius: 4px; transition: 0.3s;
+    }
+    .btn:hover { background: var(--accent-green); color: var(--bg-color); }
+
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 50px 20px; max-width: 1000px; margin: auto; }
     .feature-card { 
         background: #0d140d; 
@@ -40,7 +46,6 @@
     }
     .feature-card h3 { color: var(--accent-green); margin-top: 0; }
     
-    /* Restored Footer */
     .footer { text-align: center; padding: 40px; color: #555; font-size: 0.8rem; font-family: monospace; margin-top: auto; }
 </style>
 </head>
@@ -49,8 +54,10 @@
 <div class="hero">
     <h1>PredicTrack<span class="tm">&#8482;</span></h1>
     <p>The definitive workspace for analytical traders. Powered by the <strong>Pergolytics&#8482;</strong> engine.</p>
-    <div style="padding: 20px;">
-        <span style="color: var(--accent-green); border: 1px solid var(--accent-green); padding: 8px 20px; border-radius: 4px; font-weight: bold; font-size: 0.9rem;">SECURE & LOCAL-FIRST</span>
+    
+    <div class="download-section">
+        <a href="https://github.com/BVLLC1/PredicTrack-Core-Beta" class="btn">DOWNLOAD GITHUB BETA</a>
+        <a href="https://drive.google.com/file/d/10vW14JWUUjqRMdNKnGpYTj0S67ms1BRG/view?usp=sharing" class="btn">DOWNLOAD USER GUIDE</a>
     </div>
 </div>
 
@@ -65,7 +72,7 @@
     </div>
     <div class="feature-card">
         <h3>Experience Widgets</h3>
-        <p>Eliminate cognitive noise. Our widgets integrate directly into your viewing experience, providing relevant, high-fidelity data exactly where you need it.</p>
+        <p>Eliminate cognitive noise. Our widgets integrate directly into your viewing experience, providing relevant data exactly where you need it.</p>
     </div>
 </div>
 
