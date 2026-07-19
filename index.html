@@ -20,43 +20,26 @@
         flex-direction: column;
         min-height: 100vh;
     }
-    .hero { 
-        padding: 80px 20px; 
-        text-align: center; 
-        border-bottom: 1px solid var(--border-color);
-    }
+    .hero { padding: 80px 20px; text-align: center; border-bottom: 1px solid var(--border-color); }
     h1 { font-size: 4rem; letter-spacing: -1px; margin-bottom: 10px; font-weight: 800; }
     .tm { font-size: 0.3em; vertical-align: super; }
-    .hero p { font-size: 1.2rem; color: var(--text-sub); max-width: 600px; margin: 0 auto 20px; }
+    .hero p { font-size: 1.2rem; color: var(--text-sub); max-width: 700px; margin: 0 auto 30px; }
     
-    /* Static Tag */
     .status-tag { 
-        display: inline-block;
-        color: var(--accent-green); 
-        border: 1px solid var(--accent-green); 
-        padding: 8px 20px; 
-        border-radius: 4px; 
-        font-weight: bold; 
-        font-size: 0.9rem;
-        margin-bottom: 30px;
+        display: inline-block; color: var(--accent-green); border: 1px solid var(--accent-green); 
+        padding: 8px 20px; border-radius: 4px; font-weight: bold; font-size: 0.9rem; margin-bottom: 30px;
     }
-
-    /* Download Buttons */
-    .download-section { display: flex; gap: 20px; justify-content: center; margin-bottom: 20px; }
+    .download-section { display: flex; gap: 20px; justify-content: center; }
     .btn { 
         padding: 15px 30px; border: 1px solid var(--accent-green); color: var(--accent-green);
         text-decoration: none; font-weight: bold; border-radius: 4px; transition: 0.3s;
     }
     .btn:hover { background: var(--accent-green); color: var(--bg-color); }
 
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 50px 20px; max-width: 1000px; margin: auto; }
-    .feature-card { 
-        background: #0d140d; 
-        padding: 30px; 
-        border: 1px solid var(--border-color);
-        border-radius: 4px;
-    }
-    .feature-card h3 { color: var(--accent-green); margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 50px 20px; max-width: 1100px; margin: auto; }
+    .feature-card { background: #0d140d; padding: 30px; border: 1px solid var(--border-color); border-radius: 4px; }
+    .feature-card h3 { color: var(--accent-green); margin-top: 0; font-size: 1.2rem; }
+    .feature-card p { font-size: 0.95rem; color: var(--text-sub); }
     
     .footer { text-align: center; padding: 40px; color: #555; font-size: 0.8rem; font-family: monospace; margin-top: auto; }
 </style>
@@ -65,10 +48,10 @@
 
 <div class="hero">
     <h1>PredicTrack<span class="tm">&#8482;</span></h1>
-    <p>The definitive workspace for analytical traders. Powered by the <strong>Pergolytics&#8482;</strong> engine.</p>
+    <p>The definitive workspace for analytical traders. Built to transform raw trading history into personal insight, helping you improve judgment and discipline.</p>
     
     <div>
-        <span class="status-tag">SECURE & LOCAL-FIRST</span>
+        <span class="status-tag">EVIDENCE-DRIVEN • LOCAL-FIRST</span>
     </div>
 
     <div class="download-section">
@@ -79,21 +62,21 @@
 
 <div class="grid">
     <div class="feature-card">
-        <h3>Privacy by Design</h3>
-        <p>Your data belongs to you. <strong>PredicTrack&#8482;</strong> operates entirely locally, ensuring your trading history and strategies remain under your exclusive control.</p>
+        <h3>Human in the Loop</h3>
+        <p>PredicTrack doesn't tell you what to trade. It keeps the human at the center, providing the analytics you need to build a repeatable decision-making process.</p>
     </div>
     <div class="feature-card">
-        <h3>The Pergorithm&#8482; Framework</h3>
-        <p>Go beyond simple tracking. Our internal framework, the <strong>Pergorithm&#8482;</strong>, is built to help you refine your decision-making and build consistent, data-backed habits.</p>
+        <h3>The Pergorithm™ Framework</h3>
+        <p>Go beyond market data. Our internal framework is built to help you recognize patterns, review your decisions, and improve through objective self-reflection.</p>
     </div>
     <div class="feature-card">
-        <h3>Experience Widgets</h3>
-        <p>Eliminate cognitive noise. Our widgets integrate directly into your viewing experience, providing relevant data exactly where you need it.</p>
+        <h3>Total Data Sovereignty</h3>
+        <p>Your history, your habits, your patterns. PredicTrack operates locally to ensure your data stays under your control, free from third-party cloud dependence.</p>
     </div>
 </div>
 
 <div class="footer">
-    2026 PredicTrack&#8482;. Powered by Pergolytics&#8482;. Founding the Pergorithm&#8482; Community
+    2026 PredicTrack&#8482;. Powered by Pergolytics&#8482;. Founding the Pergorithm&#8482; Community.
 </div>
 
 </body>
