@@ -27,10 +27,22 @@
     }
     h1 { font-size: 4rem; letter-spacing: -1px; margin-bottom: 10px; font-weight: 800; }
     .tm { font-size: 0.3em; vertical-align: super; }
-    .hero p { font-size: 1.2rem; color: var(--text-sub); max-width: 600px; margin: 0 auto 30px; }
+    .hero p { font-size: 1.2rem; color: var(--text-sub); max-width: 600px; margin: 0 auto 20px; }
     
-    /* New Download Area */
-    .download-section { margin: 40px 0; display: flex; gap: 20px; justify-content: center; }
+    /* Static Tag */
+    .status-tag { 
+        display: inline-block;
+        color: var(--accent-green); 
+        border: 1px solid var(--accent-green); 
+        padding: 8px 20px; 
+        border-radius: 4px; 
+        font-weight: bold; 
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+
+    /* Download Buttons */
+    .download-section { display: flex; gap: 20px; justify-content: center; margin-bottom: 20px; }
     .btn { 
         padding: 15px 30px; border: 1px solid var(--accent-green); color: var(--accent-green);
         text-decoration: none; font-weight: bold; border-radius: 4px; transition: 0.3s;
@@ -55,9 +67,13 @@
     <h1>PredicTrack<span class="tm">&#8482;</span></h1>
     <p>The definitive workspace for analytical traders. Powered by the <strong>Pergolytics&#8482;</strong> engine.</p>
     
+    <div>
+        <span class="status-tag">SECURE & LOCAL-FIRST</span>
+    </div>
+
     <div class="download-section">
         <a href="https://github.com/BVLLC1/PredicTrack-Core-Beta" class="btn">DOWNLOAD GITHUB BETA</a>
-        <a href="https://drive.google.com/file/d/10vW14JWUUjqRMdNKnGpYTj0S67ms1BRG/view?usp=sharing" class="btn">DOWNLOAD USER GUIDE</a>
+        <a href="https://drive.google.com/file/d/10vW14JWUUjqRMdNKnGpYTj0S67ms1BRG/view?usp=sharing" class="btn">DOWNLOAD GOOGLE DRIVE BETA</a>
     </div>
 </div>
 
